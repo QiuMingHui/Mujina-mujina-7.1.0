@@ -1,0 +1,49 @@
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" entityID="http://idp.ssocircle.com">
+<IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<KeyDescriptor use="signing">
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDETCCAfmgAwIBAgIDIAZaMA0GCSqGSIb3DQEBCwUAMC4xCzAJBgNVBAYTAkRF MRIwEAYDVQQKEwlTU09DaXJjbGUxCzAJBgNVBAMTAkNBMB4XDTE2MDYwNzExNDg1 OFoXDTIxMDgxNzExNDg1OFowSzELMAkGA1UEBhMCREUxEjAQBgNVBAoTCVNTT0Np cmNsZTEMMAoGA1UECxMDaWRwMRowGAYDVQQDExFpZHAuc3NvY2lyY2xlLmNvbTCB nzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAm8w0ZLnQv2gtoDKkVVWi3TySRMKR QeKO9X0eW5zXdqHJ5zcyf1vQqAmq4MysfhCeDZt71pl/yGUQhb678vQu/Hz9XJre kmtPdSvZbmjAMlp+6AvIf2AVx+6weNrXb1i2OCpfVSculAnJb2rMq3ysfkkeClOs wrDOttir6ecFuu0CAwEAAaOBnjCBmzAJBgNVHRMEAjAAMCwGCWCGSAGG+EIBDQQf Fh1PcGVuU1NMIEdlbmVyYXRlZCBDZXJ0aWZpY2F0ZTAdBgNVHQ4EFgQUyYiUw+Ca iOhSTa5olsxTMYH+eUswQQYDVR0jBDowOKEypDAwLjELMAkGA1UEBhMCREUxEjAQ BgNVBAoTCVNTT0NpcmNsZTELMAkGA1UEAxMCQ0GCAgqYMA0GCSqGSIb3DQEBCwUA A4IBAQCzBsLvEpVBSzzNIzZCMaJ5/DW0y2fycWCv1luq8BgSz4hNpdMexeIWVltz XPgV9Lc82AeK72mBwUpvA7XemFx/KSXnw+4+SfcGH0+63hlORtyIGc/6aRucO6IA L1KfqOXnrAqc9NlNFUCEPIJ7oJthGjApaTvK2laJCNKdxGmX1F/JbYl8O4xgTjgr ENvdZ+HCML4GrLTw+HbXC46NQVMOY4+PRdXxAZe7cqCJ+7N/hlHchNAnLXMEsIXM MvPC1KWaiTnH9taVF41X/wBNHnck4bkCtNOP+y8S3b/hYkVIh06OkPc7XwuWPw85 yUfg4bJ31TRnxDHmG7ItlGu/Oq7d
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</KeyDescriptor>
+<KeyDescriptor use="encryption">
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDETCCAfmgAwIBAgIDIAZaMA0GCSqGSIb3DQEBCwUAMC4xCzAJBgNVBAYTAkRF MRIwEAYDVQQKEwlTU09DaXJjbGUxCzAJBgNVBAMTAkNBMB4XDTE2MDYwNzExNDg1 OFoXDTIxMDgxNzExNDg1OFowSzELMAkGA1UEBhMCREUxEjAQBgNVBAoTCVNTT0Np cmNsZTEMMAoGA1UECxMDaWRwMRowGAYDVQQDExFpZHAuc3NvY2lyY2xlLmNvbTCB nzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAm8w0ZLnQv2gtoDKkVVWi3TySRMKR QeKO9X0eW5zXdqHJ5zcyf1vQqAmq4MysfhCeDZt71pl/yGUQhb678vQu/Hz9XJre kmtPdSvZbmjAMlp+6AvIf2AVx+6weNrXb1i2OCpfVSculAnJb2rMq3ysfkkeClOs wrDOttir6ecFuu0CAwEAAaOBnjCBmzAJBgNVHRMEAjAAMCwGCWCGSAGG+EIBDQQf Fh1PcGVuU1NMIEdlbmVyYXRlZCBDZXJ0aWZpY2F0ZTAdBgNVHQ4EFgQUyYiUw+Ca iOhSTa5olsxTMYH+eUswQQYDVR0jBDowOKEypDAwLjELMAkGA1UEBhMCREUxEjAQ BgNVBAoTCVNTT0NpcmNsZTELMAkGA1UEAxMCQ0GCAgqYMA0GCSqGSIb3DQEBCwUA A4IBAQCzBsLvEpVBSzzNIzZCMaJ5/DW0y2fycWCv1luq8BgSz4hNpdMexeIWVltz XPgV9Lc82AeK72mBwUpvA7XemFx/KSXnw+4+SfcGH0+63hlORtyIGc/6aRucO6IA L1KfqOXnrAqc9NlNFUCEPIJ7oJthGjApaTvK2laJCNKdxGmX1F/JbYl8O4xgTjgr ENvdZ+HCML4GrLTw+HbXC46NQVMOY4+PRdXxAZe7cqCJ+7N/hlHchNAnLXMEsIXM MvPC1KWaiTnH9taVF41X/wBNHnck4bkCtNOP+y8S3b/hYkVIh06OkPc7XwuWPw85 yUfg4bJ31TRnxDHmG7ItlGu/Oq7d
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+<EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc">
+<xenc:KeySize xmlns:xenc="http://www.w3.org/2001/04/xmlenc#">128</xenc:KeySize>
+</EncryptionMethod>
+</KeyDescriptor>
+<ArtifactResolutionService index="0" isDefault="true" Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.ssocircle.com:443/sso/ArtifactResolver/metaAlias/ssocircle"/>
+<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.ssocircle.com:443/sso/IDPSloRedirect/metaAlias/ssocircle" ResponseLocation="https://idp.ssocircle.com:443/sso/IDPSloRedirect/metaAlias/ssocircle"/>
+<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.ssocircle.com:443/sso/IDPSloPost/metaAlias/ssocircle" ResponseLocation="https://idp.ssocircle.com:443/sso/IDPSloPost/metaAlias/ssocircle"/>
+<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.ssocircle.com:443/sso/IDPSloSoap/metaAlias/ssocircle"/>
+<ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.ssocircle.com:443/sso/IDPMniRedirect/metaAlias/ssocircle" ResponseLocation="https://idp.ssocircle.com:443/sso/IDPMniRedirect/metaAlias/ssocircle"/>
+<ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.ssocircle.com:443/sso/IDPMniPOSTmetaAlias/ssocircle" ResponseLocation="https://idp.ssocircle.com:443/sso/IDPMniPOST/metaAlias/ssocircle"/>
+<ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.ssocircle.com:443/sso/IDPMniSoap/metaAlias/ssocircle"/>
+<NameIDFormat>
+urn:oasis:names:tc:SAML:2.0:nameid-format:persistent
+</NameIDFormat>
+<NameIDFormat>
+urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+</NameIDFormat>
+<NameIDFormat>
+urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified
+</NameIDFormat>
+<NameIDFormat>
+urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress
+</NameIDFormat>
+<NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:kerberos</NameIDFormat>
+<SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.ssocircle.com:443/sso/SSORedirect/metaAlias/ssocircle"/>
+<SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.ssocircle.com:443/sso/SSOPOST/metaAlias/ssocircle"/>
+<SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.ssocircle.com:443/sso/SSOSoap/metaAlias/ssocircle"/>
+<NameIDMappingService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.ssocircle.com:443/sso/NIMSoap/metaAlias/ssocircle"/>
+</IDPSSODescriptor>
+</EntityDescriptor>
